@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load crispy_forms_tags %}
+<html>
+<head>
+    <title>{% block title %}Grade Management System{% endblock %}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="mb-4" >{% block heading %}Grade Management System{% endblock %}</h1>
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>
